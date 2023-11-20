@@ -78,18 +78,17 @@ export default function Contact() {
         <h1 className={style.title}>Contato</h1>
         <p> tiagofmuniz2023@gmail.com</p>
         <div className={style.socialNetworks}>
-          <a href="">
+          <a href="https://www.linkedin.com/in/tiagofmuniz/" target="_blank">
             <Image src="/img/linkedin2.png" width={20} height={20} alt="" />
           </a>
-          <a href="">
+          <a href="https://github.com/tiagofmuniz" target="_blank">
+            <Image src="/img/github-sign.png" width={20} height={20} alt="" />
+          </a>
+          <a href="https://www.instagram.com/tiagoferreiramuniz/" target="_blank">
             <Image src="/img/instagram3.png" width={20} height={20} alt="" />
           </a>
-          <a href="">
-            <Image src="/img/discord.png" width={20} height={20} alt="" />
-          </a>
-          <a href="">
-            <Image src="/img/twitter.png" width={20} height={20} alt="" />
-          </a>
+
+  
         </div>
         <div className={style.citation}>
           <p>

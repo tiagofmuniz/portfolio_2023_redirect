@@ -4,14 +4,16 @@
   padding-bottom: $gap-xl;
   text-align: center;
 
-
   h1 {
   }
 
   .content {
- 
-  }
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap-sm;
+    justify-content: center;
 
+  }
 
   @media screen and (max-width: 768px) {
     .content {
@@ -32,20 +34,14 @@
 
   animation: scale 2s ease;
   animation-timeline: view();
-  animation-range:cover 0% cover 30%;
-
+  animation-range: cover 0% cover 30%;
 }
-
-
 
 @keyframes scale {
   from {
- 
     // transform: scale(0);
   }
   to {
-
     // transform: scale(1);
-
   }
 }

@@ -70,10 +70,7 @@ export default function ProjectCard({
             ""
           )}
         </p>
-        <Link href={`/projects/${name}`}>
-          {" "}
-          <a>Detalhes do projeto no Github</a>
-        </Link>
+        <p>Detalhes do projeto no Github</p>
       </div>
     </div>
   );

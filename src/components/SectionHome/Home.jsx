@@ -6,16 +6,20 @@ export default function Home() {
   return (
     <section className={styles.home_container} id="home">
       <div className={styles.left_col}>
-        <h1>
-          Olá, aqui é o, <span>Tiago</span>
-        </h1>
-        <h2>Full stack Jr</h2>
+        <div className={styles.title_container}>
+          <span> Olá, meu nome é </span>
+          <h1>
+            <span>Tiago </span>Muniz
+          </h1>
+          <h2>Full stack Jr</h2>
+        </div>
         <p>
-          Entusiasta da programação, impulsionado pela curiosidade em explorar
-          as amplas possibilidades tecnológicas digitais, guiado pela busca
-          incessante pela inovação e conhecimento.
+          Olá, meu nome é Tiago e sou um desenvolvedor front-end jr, apaixonado
+          pela programação. Com aproximadamente 2 anos de experiência, meu
+          objetivo é tornar-me fullstack, explorando as amplas possibilidades tecnológicas digitais,
+          guiado pela busca incessante pela inovação e conhecimento.
         </p>
-        <ButtonDownload 
+        <ButtonDownload
           fileName="TiagoFMuniz_2023.08.07_Geral"
           label="DOWNLOAD CV"
         />

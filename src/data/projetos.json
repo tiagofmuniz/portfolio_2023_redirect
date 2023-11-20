@@ -1,16 +1,74 @@
 [
   {
-    "id": "cultivavita",
+    "id": "0",
+    "name": "Portifolio",
+    "category": "front-end",
+    "hrefCover": "projects/portifolio.gif",
+    "github": "https://github.com/tiagofmuniz/portfolio-",
+    "url": "",
+    "tecnologias": ["ReactJs", "SASS", "NextJs"],
+    "resume": "",
+    "description": "Refere-se ao portifólio atual, sendo um dos meus primeiros projetos em next js.",
+    "instruction": [
+      "Faça o clone deste repositório: https://github.com/tiagofmuniz/portfolio-",
+      "Considere que o projeto sofrerá alguns refatoramentos, tendo em vista a organização e qualidade do código.",
+      "Recomendo não usá-lo como base, pois sendo meu primeiro projeto em next, carece de melhorias."
+    ],
+    "learnings": [
+      "Configuração do Ambiente Next.js",
+      "Roteamento Dinâmico",
+      "Páginas Estáticas e Dinâmicas",
+      "Componentes Reutilizáveis",
+      "Estilização com CSS-in-JS",
+      "Integração com API EmailJs",
+      "Otimização de Imagens",
+      "Controle de Estado",
+      "SEO (Search Engine Optimization)",
+      "Responsividade",
+      "Deploy",
+      "Controle de Versão",
+      "Melhores Práticas de Desenvolvimento"
+    ],
+
+    "extras": []
+  },
+  {
+    "id": "1",
+    "name": "Menu 3D",
+    "category": "front-end",
+    "hrefCover": "projects/menu3d.gif",
+    "github": "https://github.com/tiagofmuniz/menu3d",
+    "url": "",
+    "tecnologias": ["HTML", "CSS"],
+    "resume": "",
+    "description": "Um menu de navegação com efeito de inclinação 3d implementado em HTML e CSS.",
+    "instruction": [
+      "Clone este repositório: `git clone https://github.com/tiagofmuniz/menu3d`",
+      "Abra o arquivo `index.html` no seu navegador."
+    ],
+    "learnings": [
+      "Implementação de um menu de navegação com efeito de inclinação.",
+      "Uso de variáveis CSS para definir a propriedade z-index dinamicamente.",
+      "Transformações e transições para criar uma experiência de usuário atraente."
+    ],
+    "extras": [
+      "O menu utiliza a fonte 'Oswald' do Google Fonts.",
+      "Os itens do menu têm uma inclinação e transição suave ao passar o mouse sobre eles.",
+      "Cada item do menu possui uma borda antes e depois com inclinação, criando o efeito visual."
+    ]
+  },
+  {
+    "id": "2",
     "name": "Cultiva Vita",
     "hrefCover": "projects/cultiva_vita.png",
     "github": "",
     "url": "https://www.cultivavita.com",
     "tecnologias": ["wordpress"],
     "resume": "",
-    "description":"Um site criado em wordpress para a disciplina de Empreendedorismo do curso de Sistema de informações, focado na venda de composteiras e produtos de jardinagem sustentável."
+    "description": "Um site criado em wordpress para a disciplina de Empreendedorismo do curso de Sistema de informações, focado na venda de composteiras e produtos de jardinagem sustentável."
   },
   {
-    "id": "",
+    "id": "3",
     "name": "Calculadora Simples",
     "category": "front-end",
     "hrefCover": "projects/calculator.gif",
@@ -40,7 +98,7 @@
     "extras": []
   },
   {
-    "id": "",
+    "id": "4",
     "name": "Consultor de clima",
     "category": "front-end",
     "hrefCover": "projects/weatherFinder.gif",
@@ -69,7 +127,7 @@
     ]
   },
   {
-    "id": "",
+    "id": "5",
     "name": "Pokédex",
     "category": "front-end",
     "hrefCover": "projects/pokedex.gif",
@@ -96,7 +154,7 @@
     ]
   },
   {
-    "id": "",
+    "id": "6",
     "name": "Gerador de Senha",
     "category": "front-end",
     "hrefCover": "projects/passgenerator.gif",
@@ -121,7 +179,7 @@
     "extras": []
   },
   {
-    "id": "",
+    "id": "7",
     "name": "Relógio Digital",
     "category": "front-end",
     "hrefCover": "projects/digitalClock.gif",
@@ -142,7 +200,7 @@
     "extras": []
   },
   {
-    "id": "",
+    "id": "8",
     "name": "Lista de Tarefas",
     "category": "front-end",
     "hrefCover": "projects/todolist.gif",
@@ -165,6 +223,29 @@
       "Trabalho com arrays e objetos para gerenciar a lista de tarefas.",
       "Uso de eventos para responder às interações do usuário.",
       "Estilização básica com CSS para uma apresentação mais amigável."
+    ],
+    "extras": []
+  },
+  {
+    "id": "9",
+    "name": "Cards Animados",
+    "category": "front-end",
+    "hrefCover": "projects/cards.gif",
+    "github": "https://github.com/tiagofmuniz/CardsAnimados",
+    "url": "",
+    "tecnologias": ["HTML", "CSS", "JavaScript (Vanilla Tilt)"],
+    "resume": "",
+    "description": "Este projeto consiste em uma página que exibe três cards animados usando a biblioteca JavaScript Vanilla Tilt. Cada card contém um número, um título, um texto descritivo e um botão de mais informações sobre o vanilla-tilt.",
+    "instruction": [
+      "Faça o clone deste repositório: {{repositorio}}",
+      "Abra o arquivo index.html em seu navegador.",
+      "Observe os cards animados na página.",
+      "Clique no link 'Mais informações' em cada card para obter detalhes adicionais."
+    ],
+    "learnings": [
+      "Estruturação de uma página HTML simples.",
+      "Estilização dos cards com CSS.",
+      "Utilização da biblioteca Vanilla Tilt para adicionar animações interativas aos cards."
     ],
     "extras": []
   }
