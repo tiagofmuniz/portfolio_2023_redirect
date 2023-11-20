@@ -6,7 +6,18 @@ import style from "./knowledge.module.scss";
 import GenericButtonLink from "../BtnLink/GenericButtonLink";
 
 type TecnologiasType = {
-  [key: string]: string[];
+  html: string[];
+  css: string[];
+  sass: string[];
+  javascript: string[];
+  java: string[];
+  react: string[];
+  next: string[];
+  node: string[];
+  postgresql: string[];
+  typescript: string[];
+  wordpress: string[];
+  figma: string[];
 };
 
 export default function Skills() {
@@ -43,7 +54,10 @@ export default function Skills() {
     }
   }
 
-  const filteredData = selectedTech ? Tecnologias[selectedTech] : null;
+  const filteredData =
+  selectedTech && Tecnologias[selectedTech as keyof TecnologiasType]
+    ? Tecnologias[selectedTech as keyof TecnologiasType]
+    : null;
 
   return (
     <section className={style.skills_container}>
