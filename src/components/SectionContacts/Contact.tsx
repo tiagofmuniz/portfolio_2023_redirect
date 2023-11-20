@@ -11,7 +11,7 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  function sendEmail(e: Event) {
+  function sendEmail(e:any) {
     e.preventDefault();
     if (name === "" || email === "" || message === "") {
       alert("Preencha todos os campos");
