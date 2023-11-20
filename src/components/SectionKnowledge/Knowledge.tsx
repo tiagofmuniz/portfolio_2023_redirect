@@ -8,7 +8,7 @@ import GenericButtonLink from "../BtnLink/GenericButtonLink";
 export default function Skills() {
   const [selectedTech, setSelectedTech] = useState<string | null>(null);
   const [heightState, setHeightState] = useState<number | null>(null);
-  const useRefContainer = useRef();
+  const useRefContainer = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (useRefContainer.current) {
