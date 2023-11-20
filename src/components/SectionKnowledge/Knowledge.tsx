@@ -5,9 +5,13 @@ import SkillItem from "./TechCard/TechCard";
 import style from "./knowledge.module.scss";
 import GenericButtonLink from "../BtnLink/GenericButtonLink";
 
+type TecnologiasType = {
+  [key: string]: string[];
+};
+
 export default function Skills() {
   const [selectedTech, setSelectedTech] = useState<string | null>(null);
-  const [heightState, setHeightState] = useState<number | null>(null);
+  const [heightState, setHeightState] = useState<number>(0);
   const useRefContainer = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -39,7 +43,7 @@ export default function Skills() {
     }
   }
 
-  const filteredData = Tecnologias[selectedTech];
+  const filteredData = selectedTech ? Tecnologias[selectedTech] : null;
 
   return (
     <section className={style.skills_container}>
@@ -89,7 +93,9 @@ export default function Skills() {
               {filteredData
                 ? filteredData
                     .sort()
-                    .map((topicTech) => <p key={topicTech}>{topicTech}</p>)
+                    .map((topicTech: string) => (
+                      <p key={topicTech}>{topicTech}</p>
+                    ))
                 : ""}
             </div>
           </div>
