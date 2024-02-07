@@ -1,0 +1,16 @@
+@import '../../../styles_globals/custom_exports.module.scss';
+
+.fixedMenu {
+    position: fixed;
+    bottom: 1.2*$xl;
+    right: $md;
+    display: flex;
+    flex-direction: column;
+    gap: $sm;
+}
+
+.actived {
+    svg {
+        color: $emphasys_color;
+    }
+}
