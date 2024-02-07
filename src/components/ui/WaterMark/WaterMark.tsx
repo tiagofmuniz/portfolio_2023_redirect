@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./water_mark.module.scss";
 
 interface WaterMarkProps {
