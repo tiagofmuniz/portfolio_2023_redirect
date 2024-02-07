@@ -1,0 +1,46 @@
+@import "../../../styles/custom.module.scss";
+
+.experience_container {
+  border-radius: 5px;
+  background-color: #252525;
+  padding: $gap-xs $gap-sm;
+  margin-bottom: $gap-xs;
+
+  .title {
+    font-weight: bold;
+    color: $color-default;
+    font-size: $size-sm;
+    // font-family: $font-type3 !important;
+  }
+
+  .activities {
+    // max-height: 0;
+    // overflow: hidden;
+    // transition: max-height 0.3s ease-out;
+  }
+
+  // &:hover {
+  //   .activities {
+  //     max-height: 1000px; /* Coloque um valor grande o suficiente para cobrir o conteúdo máximo possível */
+  //     transition: max-height 0.3s ease-in;
+  //   }
+  // }
+}
+
+@media screen and (max-width: 620px) {
+  .experience_container {
+    .activities {
+      display: none;
+      max-height: 0; /* Ajuste para o valor desejado */
+      transition: max-height 0.5s ease-out;
+    }
+
+    // &:hover {
+    //   .activities {
+    //     display: block;
+    //     max-height: 1000;
+    //     transition: max-height 0.5s ease-in;
+    //   }
+    // }
+  }
+}

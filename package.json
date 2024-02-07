@@ -1,11 +1,16 @@
 {
+<<<<<<< HEAD
   "name": "portlab_2024_v2",
+=======
+  "name": "portifolio_v2023.11.13",
+>>>>>>> 7632f75592102bb2e5fe16cd3353f15202bdc269
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "lint": "next lint",
     "email": "email dev"
   },
@@ -40,6 +45,22 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "sass": "^1.70.0",
+=======
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "framer-motion": "^10.16.5",
+    "next": "14.0.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+>>>>>>> 7632f75592102bb2e5fe16cd3353f15202bdc269
     "typescript": "^5"
   }
 }
