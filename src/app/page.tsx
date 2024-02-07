@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'use client';
 
 import styles from './page.module.scss';
@@ -40,22 +39,4 @@ export default function App() {
       </main>
     </QueryClientProvider>
   );
-=======
-import Home from '../components/SectionHome/Home';
-import About from '../components/SectionSobre/About';
-import TechList from '../components/SectionKnowledge/Knowledge';
-import Projects from '../components/SectionProjects/Projects';
-import Contact from '../components/SectionContacts/Contact';
-
-export default function Main() {
-  return (
-    <main>
-      <Home/>
-      <About/>
-      <TechList/>
-      <Projects/>
-      <Contact/>
-    </main>
-  )
->>>>>>> 7632f75592102bb2e5fe16cd3353f15202bdc269
 }
