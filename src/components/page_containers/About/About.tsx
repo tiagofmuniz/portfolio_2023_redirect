@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import styles from './About.module.scss';
-import LineIconKeyValue from 'components/ui/LineIconKeyValue/LineIconKeyValue';
+import LineIconKeyValue from 'components/UI/LineIconKeyValue/LineIconKeyValue';
 import { aboutMe } from '../../../app/api/(data)/about_me';
 import { experiences } from '../../../app/api/(data)/experiences';
 import { profile_infos } from '../../../app/api/(data)/profile_infos';
