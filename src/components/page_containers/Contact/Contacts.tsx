@@ -99,17 +99,11 @@ export default function Contacts() {
             </div>
             <p>(31) 98795-8359</p>
             <div className={styles.infos}>
-              <Tooltip title='WhatsApp' size='big' arrow={true} position='top' className={styles.links}>
                 <InteractiveIconTower icon={<FaWhatsappSquare />} url='https://wa.me/5531987958359/?text=Olá!%20Gostaria%20de%20conversar%20sobre%20oportunidades%20de%20colaboração.%20Podemos%20discutir%20mais%20sobre%20nossos%20interesses%20em%20comum%3F' />
-              </Tooltip>
 
-              <Tooltip title='Linkedin' arrow={true} position='top' className={styles.links}>
                 <InteractiveIconTower icon={<FaLinkedin />} url='https://www.instagram.com/tiagoferreiramuniz/' />
-              </Tooltip>
 
-              <Tooltip title='Github' arrow={true} position='top'>
                 <InteractiveIconTower icon={<FaWhatsappSquare />} url='https://github.com/tiagofmuniz' />
-              </Tooltip>
             </div>
             <div className={styles.quoteContainer}>
               <blockquote>
