@@ -18,16 +18,16 @@ export default function CardProject({ repo }) {
       <div className={styles.header}>
         {isEllipsis}
 
-        <FaRegFolderOpen className={styles.folder} />
+        <FaRegFolderOpen  />
 
         <div className={styles.hashtagContainer}>
           {languages_list?.map((language: string) => (
-            <span>{`#${language} `}</span>
+            <span key={language}>{`#${language} `}</span>
           ))}
         </div>
 
         <Link className={styles.link} href={html_url}>
-          <FaGithubSquare className={styles.github} />
+          <FaGithubSquare />
         </Link>
       </div>
       

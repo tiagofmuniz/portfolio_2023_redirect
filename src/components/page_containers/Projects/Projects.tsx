@@ -10,15 +10,17 @@ export default function Projects() {
       <SectionObserver sectionId='projects'>
         <WaterMark label='Projetos' />
       </SectionObserver>
-      
+
       <div className={styles.content}>
         <h1>Últimos projetos...</h1>
         <p>Do aprendizado à aplicação:</p>
         <p> projetos que contam minha história!</p>
         <div className={styles.cardsContainer}>
-          {repositories?.map((repo) => {
-            return <CardProject repo={repo} />;
-          })}
+          {repositories?.map((repo) => (
+            <div key={repo}>
+              <CardProject repo={repo} />
+            </div>
+          ))}
         </div>
       </div>
     </div>

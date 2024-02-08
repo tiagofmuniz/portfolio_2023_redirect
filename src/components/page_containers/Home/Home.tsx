@@ -1,5 +1,3 @@
-// Home.jsx
-
 import React from 'react';
 import styles from './Home.module.scss';
 import { channels } from '../../../app/api/(data)/channels';

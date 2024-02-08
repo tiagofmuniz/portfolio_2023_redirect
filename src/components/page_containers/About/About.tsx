@@ -42,7 +42,6 @@ export default function AboutPage() {
         <div className={styles.experiencesContainer}>
           {experiences?.map((experience, index) => (
             <ExperienceItem
-              key={experience.tag}
               company={experience.company}
               position={experience.position}
               pathUrl={`#${experience.company}`}

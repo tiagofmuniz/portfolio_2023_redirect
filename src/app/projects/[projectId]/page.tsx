@@ -1,10 +1,7 @@
 'use client';
 import styles from './project.module.scss';
 import { repositories } from '../../api/(data)/repositories';
-import Image from 'next/image';
-import { useEffect } from 'react';
 import Carousel from '../Carrosel/Carousel';
-import Balancer from 'react-wrap-balancer';
 import { FaGithubSquare } from 'react-icons/fa';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import Link from 'next/link';
@@ -58,3 +55,7 @@ export default function page({ params }) {
     </div>
   );
 }
+function useEffect(arg0: () => void, arg1: undefined[]) {
+  throw new Error('Function not implemented.');
+}
+
