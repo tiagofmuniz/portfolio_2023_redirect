@@ -3,6 +3,7 @@
   --btnSubmitContactTextColor: 0;
   --textTest: '';
   --buttonAfterPosition: -100%;
+  --wallColor: '#0F0';
 }
 * {
   box-sizing: border-box;
@@ -37,10 +38,7 @@ body {
 body {
   font-size: $md;
 
-  p{
-    // @include longContent;
-
-  }
+ 
 
   a {
     color: inherit;

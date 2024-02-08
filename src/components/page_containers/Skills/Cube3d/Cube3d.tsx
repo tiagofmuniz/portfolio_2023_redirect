@@ -4,14 +4,14 @@ import styles from "./cube3d.module.scss";
 import Image from "next/image";
 
 interface Icube3DProps {
-  wallColor?: string;
-  topColor?: string;
-  bottomColor?: string;
-  label?: string;
-  topIcon?: React.ReactDOM;
+  wallColor?: string | any;
+  topColor?: string | any;
+  bottomColor?: string | any;
+  label?: string | any;
+  topIcon?: React.ReactDOM | any;
   iconInternal?: { width: number; height: number; url: string };
-  skew?: number | string;
-  size?: string | number;
+  skew?: number | string | any;
+  size?: string | number | any;
 }
 
 export default function Cube3d({ wallColor, topColor, bottomColor, label, topIcon, iconInternal, size, skew }:Icube3DProps) {
@@ -20,7 +20,7 @@ export default function Cube3d({ wallColor, topColor, bottomColor, label, topIco
   // export default function CubeBase({ icon, topColor, wallColor, shadowColor, size }: CubeBaseProps) {
   const wallDefault = "rgba(0, 236, 0, 0.5)";
 
-  const dynamicStyles: React.CSSProperties = {
+  const dynamicStyles:any = {
     "--wallColor": wallColor || wallDefault,
     "--topColor": topColor || wallColor,
     "--shadowColor": bottomColor || wallColor || wallDefault,
