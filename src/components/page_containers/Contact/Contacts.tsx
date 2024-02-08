@@ -11,6 +11,7 @@ import axios from 'axios';
 import InteractiveIconTower from '../About/InteractiveIconTower/InteractiveIconTower';
 import { Tooltip } from 'react-tippy';
 import SectionObserver from 'contexts_and_providers/SectionObserver';
+import Image from 'next/image';
 
 const contactFormSchema = z.object({
   name: z.string().min(1, 'Por favor, preencha seu nome.'),
@@ -89,7 +90,7 @@ export default function Contacts() {
               </div>
             </form>
             <div className={styles.footerImage}>
-              <img src='/images/temp/image5.png' alt=''></img>
+              <Image width={100} height={100} src='/images/temp/image5.png' alt=''></Image>
             </div>
           </div>
           <div className={`${styles.col} ${styles.rightCol}`}>
