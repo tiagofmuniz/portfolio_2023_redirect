@@ -53,11 +53,16 @@ export default function AboutPage() {
             ))}
           </div>
 
-          <div className={styles.socialItems}>
+          {/* <div className={styles.socialItems}>
             {channels.map((item) => (
               <Tooltip key={item.label} title={item.label} size='big' arrow={true} position='top' className={styles.customTooltip}>
                 <InteractiveIconTower icon={item.icon} url={item.value} />
               </Tooltip>
+            ))}
+          </div> */}
+          <div className={styles.socialItems}>
+            {channels.map((item) => (
+                <InteractiveIconTower key={item.label} icon={item.icon} url={item.value} />
             ))}
           </div>
         </div>
