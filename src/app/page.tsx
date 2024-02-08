@@ -1,5 +1,4 @@
 'use client';
-
 import styles from './page.module.scss';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Home from 'components/page_containers/Home/Home';
@@ -7,7 +6,6 @@ import About from 'components/page_containers/About/About';
 import Skills from 'components/page_containers/Skills/Skills';
 import Projects from 'components/page_containers/Projects/Projects';
 import Contacts from 'components/page_containers/Contact/Contacts';
-import 'react-tooltip/dist/react-tooltip.css';
 
 export default function App() {
   const client = new QueryClient();
