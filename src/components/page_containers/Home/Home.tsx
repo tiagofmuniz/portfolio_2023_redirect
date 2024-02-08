@@ -3,8 +3,8 @@
 import React from 'react';
 import styles from './Home.module.scss';
 import { channels } from '../../../app/api/(data)/channels';
-import BtnSocialLink from 'components/UI/BtnSocialLink/BtnSocialLink';
-import FixedMenu from 'components/UI/FixedMenu/FixedMenu';
+import BtnSocialLink from 'components/ui/BtnSocialLink/BtnSocialLink';
+import FixedMenu from 'components/ui/FixedMenu/FixedMenu';
 import SectionObserver from 'contexts_and_providers/SectionObserver';
 
 export default function Home() {

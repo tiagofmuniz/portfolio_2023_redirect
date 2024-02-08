@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { Ubuntu } from 'next/font/google';
 import '../styles_globals/globals.scss';
 import { SectionProvider } from 'contexts_and_providers/useSectionContext';
-import Header from 'components/UI/Header/Header';
-import Footer from 'components/UI/Footer/Footer';
+import Header from 'components/ui/Header/Header';
+import Footer from 'components/ui/Footer/Footer';
 
 const ubuntu = Ubuntu({ subsets: ['latin'], weight: ['400', '700'] });
 
