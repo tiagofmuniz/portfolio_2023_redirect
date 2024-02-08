@@ -20,13 +20,7 @@ export default function CardProject({ repo }) {
 
         <FaRegFolderOpen  />
 
-        <div className={styles.hashtagContainer}>
-          {languages_list?.map((language: string, index) => (
-            <span key={index}>{`#${language} `}</span>
-          ))}
-        </div>
-
-        <Link className={styles.link} href={html_url}>
+          <Link className={styles.link} href={html_url || '/'}>
           <FaGithubSquare />
         </Link>
       </div>
