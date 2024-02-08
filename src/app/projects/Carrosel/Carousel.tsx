@@ -1,3 +1,4 @@
+'use client';
 import { useState, useRef, useEffect } from 'react';
 import styles from './Carousel.module.scss';
 import { motion } from 'framer-motion';

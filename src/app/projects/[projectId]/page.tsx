@@ -1,4 +1,3 @@
-'use client';
 import styles from './project.module.scss';
 import { repositories } from '../../api/(data)/repositories';
 import Carousel from '../Carrosel/Carousel';
