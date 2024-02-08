@@ -1,4 +1,3 @@
-import styles from './Contacts.module.scss';
 import { z } from 'zod';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -12,6 +11,7 @@ import InteractiveIconTower from '../About/InteractiveIconTower/InteractiveIconT
 import { Tooltip } from 'react-tippy';
 import SectionObserver from 'contexts_and_providers/SectionObserver';
 import Image from 'next/image';
+import styles from './Contacts.module.scss';
 
 const contactFormSchema = z.object({
   name: z.string().min(1, 'Por favor, preencha seu nome.'),
