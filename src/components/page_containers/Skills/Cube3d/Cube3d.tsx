@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import styles from "./cube3d.module.scss";
-import Link from "next/link";
 import Image from "next/image";
 
 interface Icube3DProps {

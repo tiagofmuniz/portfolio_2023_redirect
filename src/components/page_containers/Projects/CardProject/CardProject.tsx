@@ -21,8 +21,8 @@ export default function CardProject({ repo }) {
         <FaRegFolderOpen  />
 
         <div className={styles.hashtagContainer}>
-          {languages_list?.map((language: string) => (
-            <span key={language}>{`#${language} `}</span>
+          {languages_list?.map((language: string, index) => (
+            <span key={index}>{`#${language} `}</span>
           ))}
         </div>
 
