@@ -11,7 +11,7 @@ import { Tooltip } from 'react-tippy';
 import SectionObserver from 'contexts_and_providers/SectionObserver';
 import Balancer from 'react-wrap-balancer';
 import Image from 'next/image';
-import WaterMark from 'components/UI/WaterMark/WaterMark';
+import WaterMark from '../../UI/WaterMark/WaterMark';
 
 export default function AboutPage() {
 

@@ -10,7 +10,7 @@ import axios from 'axios';
 import InteractiveIconTower from '../About/InteractiveIconTower/InteractiveIconTower';
 import { Tooltip } from 'react-tippy';
 import SectionObserver from 'contexts_and_providers/SectionObserver';
-import WaterMark from 'components/UI/WaterMark/WaterMark';
+import WaterMark from '../../UI/WaterMark/WaterMark';
 
 const contactFormSchema = z.object({
   name: z.string().min(1, 'Por favor, preencha seu nome.'),

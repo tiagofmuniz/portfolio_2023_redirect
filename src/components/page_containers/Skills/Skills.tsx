@@ -5,7 +5,7 @@ import { skills } from 'app/api/(data)/skills';
 import 'react-tippy/dist/tippy.css';
 import { Tooltip } from 'react-tippy';
 import SectionObserver from 'contexts_and_providers/SectionObserver';
-import WaterMark from 'components/UI/WaterMark/WaterMark';
+import WaterMark from '../../UI/WaterMark/WaterMark';
 
 interface ISkillProps {
   label: string;

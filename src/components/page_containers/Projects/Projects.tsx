@@ -2,7 +2,7 @@ import styles from './Projects.module.scss';
 import CardProject from './CardProject/CardProject';
 import { repositories } from '../../../app/api/(data)/repositories';
 import SectionObserver from 'contexts_and_providers/SectionObserver';
-import WaterMark from 'components/UI/WaterMark/WaterMark';
+import WaterMark from '../../UI/WaterMark/WaterMark';
 
 export default function Projects() {
   return (
