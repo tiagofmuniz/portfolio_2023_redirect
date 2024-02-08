@@ -23,9 +23,9 @@ export default function Skills() {
       </SectionObserver>
 
       <div className={styles.skillItem}>
-        {skills?.map((item) => {
-          return (
-            <Tooltip title={item.tooltip} size='big' arrow={true} position='bottom' className={styles.customTooltip}>
+        {skills?.map((item, index) => 
+       (
+            <Tooltip key={index} title={item.tooltip} size='big' arrow={true} position='bottom' className={styles.customTooltip}>
               <div className={styles.cubeContainer}>
                 <Cube3d
                   label={item.label}
@@ -36,8 +36,8 @@ export default function Skills() {
                 />
               </div>
             </Tooltip>
-          );
-        })}
+          )
+        )}
       </div>
     </div>
   );
