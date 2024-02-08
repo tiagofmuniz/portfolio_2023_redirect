@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Skills.module.scss';
-import WaterMark from '../../UI/WaterMark/WaterMark';
 import Cube3d from './Cube3d/Cube3d';
 import { skills } from 'app/api/(data)/skills';
 import 'react-tippy/dist/tippy.css';
 import { Tooltip } from 'react-tippy';
 import SectionObserver from 'contexts_and_providers/SectionObserver';
+import WaterMark from 'components/UI/WaterMark/WaterMark';
 
 interface ISkillProps {
   label: string;

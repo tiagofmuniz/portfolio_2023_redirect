@@ -5,13 +5,13 @@ import LineIconKeyValue from 'components/UI/LineIconKeyValue/LineIconKeyValue';
 import { experiences } from '../../../app/api/(data)/experiences';
 import { profile_infos } from '../../../app/api/(data)/profile_infos';
 import { channels } from '../../../app/api/(data)/channels';
-import WaterMark from '../../UI/WaterMark/WaterMark';
 import ExperienceItem from './ExperienceItem/ExperienceItem';
 import InteractiveIconTower from './InteractiveIconTower/InteractiveIconTower';
 import { Tooltip } from 'react-tippy';
 import SectionObserver from 'contexts_and_providers/SectionObserver';
 import Balancer from 'react-wrap-balancer';
 import Image from 'next/image';
+import WaterMark from 'components/UI/WaterMark/WaterMark';
 
 export default function AboutPage() {
 
