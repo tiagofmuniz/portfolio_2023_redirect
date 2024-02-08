@@ -1,4 +1,4 @@
-import WaterMark from 'components/UI/WaterMark/WaterMark';
+import WaterMark from '../../UI/WaterMark/WaterMark';
 import styles from './Projects.module.scss';
 import CardProject from './CardProject/CardProject';
 import { repositories } from '../../../app/api/(data)/repositories';

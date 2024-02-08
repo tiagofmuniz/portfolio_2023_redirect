@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { FaLinkedin, FaWhatsappSquare } from 'react-icons/fa';
 import Balancer from 'react-wrap-balancer';
 import { PiPlanetThin } from 'react-icons/pi';
-import WaterMark from 'components/UI/WaterMark/WaterMark';
+import WaterMark from '../../UI/WaterMark/WaterMark';
 import axios from 'axios';
 import InteractiveIconTower from '../About/InteractiveIconTower/InteractiveIconTower';
 import { Tooltip } from 'react-tippy';

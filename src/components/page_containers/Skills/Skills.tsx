@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Skills.module.scss';
-import WaterMark from 'components/UI/WaterMark/WaterMark';
+import WaterMark from '../../UI/WaterMark/WaterMark';
 import Cube3d from './Cube3d/Cube3d';
 import { skills } from 'app/api/(data)/skills';
 import 'react-tippy/dist/tippy.css';
