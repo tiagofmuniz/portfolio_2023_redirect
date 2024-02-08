@@ -10,10 +10,6 @@ export default function ProjectPage({ params }) {
   const { projectId } = params;
   const project = repositories?.find((item) => item?.name === projectId);
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, [params]);
-
   return (
     <div className={styles.mainContainer}>
       <div className={styles.title}>
@@ -56,7 +52,5 @@ export default function ProjectPage({ params }) {
     </div>
   );
 }
-function useEffect(arg0: () => void, arg1: undefined[]) {
-  throw new Error('Function not implemented.');
-}
+
 
