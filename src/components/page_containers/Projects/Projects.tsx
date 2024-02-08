@@ -16,9 +16,9 @@ export default function Projects() {
         <p>Do aprendizado à aplicação:</p>
         <p> projetos que contam minha história!</p>
         <div className={styles.cardsContainer}>
-          {repositories?.map((repo, index) => (
-              <CardProject key={index} repo={repo}/>
-          ))}
+          {repositories?.map((repo, index) => {
+            return <CardProject key={repo.name} repo={repo} />;
+          })}
         </div>
       </div>
     </div>
