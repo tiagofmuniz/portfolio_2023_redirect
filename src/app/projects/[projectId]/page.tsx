@@ -5,14 +5,14 @@ import Carousel from '../Carrosel/Carousel';
 import { FaGithubSquare } from 'react-icons/fa';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import Link from 'next/link';
-import{ useEffect } from 'react';
 
-export default function page({ params }) {
+export default function ProjectPage({ params }) {
   const { projectId } = params;
   const project = repositories?.find((item) => item?.name === projectId);
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [params]);
+
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [params]);
 
   return (
     <div className={styles.mainContainer}>
