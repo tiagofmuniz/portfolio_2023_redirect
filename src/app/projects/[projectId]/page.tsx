@@ -5,6 +5,7 @@ import Carousel from '../Carrosel/Carousel';
 import { FaGithubSquare } from 'react-icons/fa';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import Link from 'next/link';
+import{ useEffect } from 'react';
 
 export default function page({ params }) {
   const { projectId } = params;
@@ -39,8 +40,8 @@ export default function page({ params }) {
         </h2>
         <h2>Práticas e aprendizados</h2>
         <ul className={styles.learningContainer}>
-          {project?.main_learning?.map((learning) => (
-            <li key={learning}>- {learning}</li>
+          {project?.main_learning?.map((learning, index) => (
+            <li key={index}>- {learning}</li>
           ))}
         </ul>
         <h2>Como usar:</h2>

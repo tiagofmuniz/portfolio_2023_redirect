@@ -14,7 +14,6 @@ import Image from 'next/image';
 import SectionObserver from 'contexts_and_providers/SectionObserver';
 
 export default function AboutPage() {
-
   return (
     <div className={styles.aboutPageContainer}>
       <SectionObserver sectionId='about'>
@@ -41,11 +40,9 @@ export default function AboutPage() {
       <div className={styles.content}>
         <div className={styles.experiencesContainer}>
           {experiences?.map((experience, index) => (
-            <ExperienceItem
-              company={experience.company}
-              position={experience.position}
-              pathUrl={`#${experience.company}`}
-            />
+            <div key={index}>
+              <ExperienceItem company={experience.company} position={experience.position} pathUrl={`#${experience.company}`} />
+            </div>
           ))}
         </div>
 
@@ -63,7 +60,6 @@ export default function AboutPage() {
               </Tooltip>
             ))}
           </div>
-          
         </div>
       </div>
     </div>
