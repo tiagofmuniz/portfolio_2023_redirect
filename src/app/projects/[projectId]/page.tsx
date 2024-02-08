@@ -12,7 +12,7 @@ export default function page({ params }) {
   const project = repositories?.find((item) => item?.name === projectId);
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, [params]);
 
   return (
     <div className={styles.mainContainer}>

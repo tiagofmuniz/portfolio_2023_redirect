@@ -120,7 +120,6 @@ export const repositories = [
     languages_list: ['React', 'Next.js', 'EmailJs API', 'Typescript', 'sass'],
     github: '',
     html_url: 'https://github.com/tiagofmuniz/portfolio-.git',
-    name: 'Portfolio',
     description: 'Primeiro projeto feito em Next.js, servindo como um portfólio que vincula outros projetos front-end criados.',
     use_instructions: [
       'Com o git instalado, crie uma pasta para o projeto, abra seu editor de código preferido na pasta e no terminal digite os comandos:\n git init \n Em seguida: git clone https://github.com/tiagofmuniz/portfolio-.git',

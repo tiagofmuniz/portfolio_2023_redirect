@@ -25,7 +25,7 @@ export default function Skills() {
       <div className={styles.skillItem}>
         {skills?.map((item) => {
           return (
-            <Tooltip title={item.tooltip} size='big' arrow={true} position='bottom' className={styles.customTooltip} key={item}>
+            <Tooltip title={item.tooltip} size='big' arrow={true} position='bottom' className={styles.customTooltip} key={item.label}>
               <div className={styles.cubeContainer}>
                 <Cube3d
                   label={item.label}

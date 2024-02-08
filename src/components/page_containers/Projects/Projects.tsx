@@ -18,7 +18,7 @@ export default function Projects() {
         <div className={styles.cardsContainer}>
           {repositories?.map((repo, index) => (
             <div key={index}>
-              <CardProject repo={repo} />
+              <CardProject repo={repo}/>
             </div>
           ))}
         </div>
