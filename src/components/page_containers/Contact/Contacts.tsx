@@ -64,7 +64,7 @@ export default function Contacts() {
         <WaterMark label='Contato' />
       </SectionObserver>
 
-      <div className={styles.contactsContainer} style={{ '--buttonAfterPosition': afterPosition }}>
+      <div className={styles.contactsContainer} >
         <div className={styles.content}>
           <div className={`${styles.col} ${styles.leftCol}`}>
             <form className={styles.formContact} onSubmit={handleSubmit(onSubmit)}>
